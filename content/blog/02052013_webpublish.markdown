@@ -13,6 +13,6 @@ After many test ranging from straight HTML5/CSS3 coding to Ruby frameworks, I've
 * [Python](http://www.python.org/) for custom tools that simplify my pipeline.  
 * [CodeKit](http://incident57.com/codekit/) for live reloading, worth every penny.  
 
-The whole website is staticly created in my computer and uploaded to the server with a single command from my [Sublime](http://www.sublimetext.com/) editor. Therefore I can iterate in my local computer, and once its done just need to upload new data into my webserver without the hassle of backend admin management. At last I use [github](GITHUB WEBSITE) for version control. I wanted a clean nice and simple solution that I am comfortable with, and I've managed to create mine.  
+The whole website is staticly created in my computer and uploaded to the server with a single command from my [Sublime](http://www.sublimetext.com/) editor. Therefore I can iterate in my local computer, and once its done just need to upload new data into my webserver without the hassle of backend admin management. At last I use [github](https://github.com/jedarnaude/yetanotherme) for version control. I wanted a clean nice and simple solution that I am comfortable with, and I've managed to create mine.  
 
 May 02 2013
