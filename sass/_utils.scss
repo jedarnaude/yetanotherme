@@ -9,6 +9,7 @@ $prefixes: ("-webkit-","-moz-", "-o-", "");
 }
 
 @mixin Container($color) {
+	float: left;
 	background-color: $color;
 	padding: 0.5em;
 	@include border-radius(1px);

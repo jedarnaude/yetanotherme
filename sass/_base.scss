@@ -1,5 +1,6 @@
 @import "compass";
 @import "compass/css3/user-interface";
+@import "vendor/bootstrap-sass-2.3.1/bootstrap";
 
 $background_color: 	#222222;
 $about_color: 		#9c4274;
@@ -19,4 +20,4 @@ $background_font_size: 		84px;
 
 $transitions_speed:			0.1s;
 
-@import "utils"
+@import "_utils"
