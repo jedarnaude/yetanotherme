@@ -6,7 +6,7 @@ This repository contains code and articles for my personal [website](http://www.
 
 ## Usage
 
-*WARNING:* This code is not meant to be forked "as is".  The code is very coupled to my requirements, yet usage is provided in order to let others understand the workflow.
+*WARNING: This code is not meant to be forked "as is".  The code is very coupled to my requirements, yet usage is provided in order to let others understand the workflow.*
 
 TODO
 
