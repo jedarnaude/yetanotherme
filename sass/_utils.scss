@@ -33,3 +33,15 @@ $prefixes: ("-webkit-","-moz-", "-o-", "");
 		}
 	}
 }
+
+@mixin Watermark($color, $font_size, $opacity, $float: none) {
+	float: $float;
+	color: $color;
+	padding-top: 20px;
+	font-size: $font_size;
+	font-weight:bold;
+	cursor: default;
+	@include inline-block;
+	@include opacity($opacity);
+	@include user-select(none);	
+}

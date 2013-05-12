@@ -1,8 +1,8 @@
 @import "_base";
 
 body {
- 	height: 100%;
- 	background: $background_color;
+	height: 100%;
+	background: $background_color;
 }
 
 // Content look and feel
@@ -14,6 +14,9 @@ body {
 	h1,h2,h3 {
 		color: $title_color;
 		margin-top: 0px;
+	}
+	.timestamp {
+		@include Watermark($text_color, 24px, $timestamp_opacity, right);
 	}
 }
 
@@ -27,14 +30,7 @@ body {
 
 // Containers
 .background {
-	color: $text_color;
-	padding-top: 20px;
-	font-size: 84px;
-    font-weight:bold;
-    cursor: default;
-    @include inline-block;
-    @include opacity($background_title_opacity);
-    @include user-select(none);
+	@include Watermark($text_color, 84px, $timestamp_opacity);
 }
 
 .about {
