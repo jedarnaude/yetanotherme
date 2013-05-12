@@ -10,6 +10,11 @@ This repository contains code and articles for my personal [website](http://www.
 
 TODO
 
+## FAQ
+
+___Why are you using github for your website content instead of something more private such as [Bitbucket](https://bitbucket.org/)?___  
+I use github at work on daily basis, and nothing in my content is that sensitive so far. If I ever have something sensitive I will either use Bitbucket or pay github for its service.
+
 ## License
 
 Copyright (c) 2013 José Enrique D'Arnaude
