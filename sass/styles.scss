@@ -1,0 +1,63 @@
+@import "base";
+
+body {
+ 	height: 100%;
+ 	background: $background_color;
+}
+
+// Content look and feel
+.content {
+	color: $text_color;
+	p {
+		text-align: justify;
+	}
+	h1,h2,h3 {
+		color: $title_color;
+		margin-top: 0px;
+	}
+}
+
+.center {
+	text-align: right;
+}
+
+.icons-size {
+	font-size: 20px;
+}
+
+// Containers
+.background {
+	color: $text_color;
+	padding-top: 20px;
+	font-size: 84px;
+    font-weight:bold;
+    cursor: default;
+    @include inline-block;
+    @include opacity($background_title_opacity);
+    @include user-select(none);
+}
+
+.about {
+	@include Container($about_color);
+}
+
+.work {
+	@include Container($work_color);
+	@include Clickable();
+}
+
+.blog {
+	@include Container($blog_color);
+}
+
+.experiment {
+	@include Container($experiment_color);
+	@include Clickable();
+}
+
+.project {
+	@include Container($project_color);
+	@include Clickable();
+}
+
+@import "bootstrap"

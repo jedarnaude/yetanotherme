@@ -1,0 +1,16 @@
+// File used to Overriding Bootstrap default settings
+
+.thumbnail {
+	padding: 0px;
+	border: none;
+}
+	
+.row {
+	> ul {
+		@include no-bullet;
+	}
+}
+
+[class*="span"] {
+	margin: 5px 0px 0px 5px;
+}

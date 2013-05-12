@@ -1,0 +1,22 @@
+@import "compass";
+@import "compass/css3/user-interface";
+
+$background_color: 	#222222;
+$about_color: 		#9c4274;
+$work_color: 		#ec663c;
+$blog_color: 		#12b0c5;
+$experiment_color: 	#ff9618;
+$project_color: 	#47bbb3;
+
+$title_color:		rgba(#fff,0.5);
+$text_color:		rgba(#fff,0.75);
+$link_color:		rgba(#000,0.4);
+
+$image_color:		rgba(#000, 0.3);
+
+$background_title_opacity:	0.1;
+$background_font_size: 		84px;
+
+$transitions_speed:			0.1s;
+
+@import "utils"
