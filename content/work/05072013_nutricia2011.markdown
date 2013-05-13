@@ -2,6 +2,6 @@
 
 ### Nutricia's christmas card 2011
 
-[![Alt text](img/nutricia2011.jpg "Snow flakes pool")](http://kilah.webfactional.com/Nutricia2011/)
+[![Alt text](img/nutricia2011.jpg "Snow flakes pool")](http://www.yetanother.me/work/Nutricia2011/)
 
 This project was done pairing with [Luisa D'Arnaude](http://lmgtfy.com/?q=Luisa+D%27Arnaude), who is a graphic designer, and me, as sole coder. At the time I basically forked [Mr.doob](http://www.mrdoob.com/#/91/ball_pool) fabulous idea and extended to work on IE8 or superior, plus added some small tweaks here and there ([Box2d](http://box2d.org/) and compatibility issues), added some extra content, music and voilà!
