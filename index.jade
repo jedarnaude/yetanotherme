@@ -1,7 +1,7 @@
 doctype 5
 html(lang="en")
 	head
-		title SomethingSomething
+		title Yet Another Me
 
 		meta(charset="utf-8")
 		meta(http-equiv="X-UA-Compatible", content="IE=edge,chrome=1")
@@ -24,22 +24,17 @@ html(lang="en")
 								include content/about.jade
 
 					li.span7
+						div.work
+							span.background work
+							div.content
+								include content/work/05072013_nutricia2011.markdown
+
+					li.span7
 						div.blog
 							span.background blog
 							div.content
 								include content/blog/02052013_webpublish.markdown
 								span.timestamp 05/05/2012
 
-					li.span6
-						div.work
-							span.background work
-							div.content
-								include content/work/05072013_nutricia2011.markdown
-
-					li.span6
-						div.experiment
-							span.background experiment
-							div.content
-								include content/experiment/07052013_prezilogo.markdown
 
 		include scripts/javascript.jade

@@ -18,6 +18,10 @@ body {
 	.timestamp {
 		@include Watermark($text_color, 24px, $timestamp_opacity, right);
 	}
+	ul {
+		list-style-type: square;
+	}
+
 }
 
 .socials {
