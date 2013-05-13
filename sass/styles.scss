@@ -61,4 +61,26 @@ body {
 	@include Clickable();
 }
 
+// 404
+.not-found {
+	position: absolute;
+	left: 15px;
+	bottom: 0;
+	text-align: center;
+	font-size: $not_found_size;
+	color: contrast-color($background_color);
+	.bubble {
+		position: absolute;
+		font-size: $not_found_size * 2;
+		top: -$not_found_size * 1.5;
+		p {
+			position: absolute;
+			font-size: $not_found_size / 4;
+			top: $not_found_size / 1.5;
+			left: $not_found_size / 3;
+			color: lighten($background_color, 50%);
+		}
+	}
+}
+
 @import "_override";
