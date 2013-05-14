@@ -1,1 +1,6 @@
+ErrorDocument 403 /404.html
 ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteRule ^work/(.*)$ /content/work/$1 				[P]
+RewriteRule ^experiment/(.*)$ /content/experiment/$1 	[P]
